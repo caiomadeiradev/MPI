@@ -1,8 +1,0 @@
-
-wc1:21256 terminated with signal 11 at PC=73be97847580 SP=7ffef0594490.  Backtrace:
-/lib/x86_64-linux-gnu/libc.so.6(+0x47580)[0x73be97847580]
-/lib/x86_64-linux-gnu/libc.so.6(atoi+0x14)[0x73be97843654]
-./wc1(+0x158e)[0x5808dc26d58e]
-/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x73be97829d90]
-/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x73be97829e40]
-./wc1(+0x1225)[0x5808dc26d225]

@@ -1,0 +1,20 @@
+----------------------------------
+(SLAVE) RANK 2
+----------------------------------
+(ROOT) RANK 0
+----------------------------------
+(SLAVE) RANK 1
+slaveRoutine(): RANK 1 recebeu: Olá, mundo.
+
+slaveRoutine(): RANK 1 recebeu: Tchau.
+FLAG END. Encerrando a troca de mensagens.
+----------------------------------
+slaveRoutine(): RANK 2 recebeu: Tudo bem, colega?
+
+FLAG END. Encerrando a troca de mensagens.
+----------------------------------
+globalWordCount(): recebido de RANK 1 -> 2 palavras
+globalWordCount(): recebido de RANK 2 -> 3 palavras
+globalWordCount(): recebido de RANK 1 -> 1 palavras
+main(): Total global de palavras: 6
+----------------------------------
